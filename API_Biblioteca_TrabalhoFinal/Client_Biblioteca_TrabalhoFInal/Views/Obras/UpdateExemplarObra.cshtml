@@ -1,0 +1,47 @@
+﻿@model IList<Client_Biblioteca_TrabalhoFinal.Models.Obras_Nucleos>
+
+
+<form method="post" asp-action="UpdateExemplarObra" enctype="multipart/form-data">   
+      
+
+    <div class="row px-2 mx-2 backgroundWhite border">
+
+        <div class="col-12 p-3">
+            <h2 class="text-primary">Atualizar Exemplares Obra</h2>
+        </div>
+        <div class="col-8">
+            <div class="form-group row">
+        @for (int i = 0; i < @Model.Count(); i++)
+            {
+                <input type="hidden" asp-for="@Model[i].ISBN">
+                <input type="hidden" asp-for="@Model[i].Requisitado" value="0">
+                <input type="hidden" asp-for="@Model[i].Disponivel" value="0">
+                <div class="col-4">
+                    <label asp-for="@Model[i].IDNucleo">ID Núcleo</label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model[i].IDNucleo" value="@(i+1)" readonly/>                    
+                </div>
+                <div class="col-4">
+                    <label asp-for="@Model[i].Quantidade">Quantidade Total de Obras</label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model[i].Quantidade" />                    
+                </div>                              
+            }
+            
+                </div>  
+            <div class="form-group row">
+                <div class="col-4 offset-4">                                            
+                        <button type="submit" class="btn btn-success form-control">
+                            Submeter
+                    </button>
+                </div>
+                <div class="col-4">
+                    <a asp-action="Index" class="btn btn-primary form-control">Voltar</a>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+</form>

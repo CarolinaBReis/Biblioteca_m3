@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Leitores";
+}
+@Html.AntiForgeryToken()
+
+<div class="text-center">
+    <h3 class="display-5">Lista de Leitores</h3>
+    <p></p>
+    
+    <div class="p-4" style="border-radius:20px;">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-primary">Leitores Registados</h2>
+        </div>
+        <div class="col-6 text-right">
+            <a asp-action="CreateLeitor" class="btn btn-primary text-white"><i class="fas fa-plus"></i> &nbsp; Adicionar Leitor</a>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="p-3 rounded">
+        <table id="tblData" class="table table-striped table-bordered" style="width:100%">
+            <thead>
+                <tr class="table-light">
+                    <th>Nome</th>
+                    <th>NIF</th>
+                    <th>Telefone</th>
+                    <th>Email</th>
+                    <th>Data de Registo</th>
+                    <th>Estado de Registo</th>
+                    <th>Data de Estado</th>
+                    <th></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+    
+</div>
+
+@section Scripts{
+    <script src="~/js/leitores.js"></script>
+}

@@ -1,0 +1,78 @@
+﻿@model Client_Biblioteca_TrabalhoFinal.Models.Obras
+
+
+<form method="post" asp-action="UpdateObra" enctype="multipart/form-data">
+    <input type="hidden" asp-for="ISBN"/>   
+    
+
+    <div class="row px-2 mx-2 backgroundWhite border">
+
+        <div class="col-12 p-3">
+            <h2 class="text-primary">Editar Detalhes Obra</h2>
+        </div>
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.ISBN"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.ISBN" />
+                    <span asp-validation-for="@Model.ISBN" class="text-danger"></span>
+                </div>
+                <div class="col-4">
+                    <label asp-for="@Model.Titulo"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.Titulo" />
+                    <span asp-validation-for="@Model.Titulo" class="text-danger"></span>
+                </div>
+                <div class="col-4">
+                    <label asp-for="@Model.Autor"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.Autor" />
+                    <span asp-validation-for="@Model.Autor" class="text-danger"></span>
+                </div>
+                <div class="col-4">
+                    <label asp-for="@Model.Editora"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.Editora" />
+                    <span asp-validation-for="@Model.Editora" class="text-danger"></span>
+                </div>
+                <div class="col-4">
+                    <label asp-for="@Model.Assunto"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.Assunto" />
+                    <span asp-validation-for="@Model.Assunto" class="text-danger"></span>
+                <div class="col-4">
+                    <label asp-for="@Model.Capa"></label>
+                </div>
+                <div class="col-8">
+                    <input type="file" asp-for="@Model.Capa" id="Capa" name="files" multiple class = "form-control" />                    
+                </div>                    
+                </div>  
+            <div class="form-group row">
+                <div class="col-4 offset-4">                                            
+                        <button type="submit" class="btn btn-success form-control">
+                            Submeter
+                    </button>
+                </div>
+                <div class="col-4">
+                    <a asp-action="Index" class="btn btn-primary form-control">Voltar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 text-right" style="width:250px;">
+            @if(Model.Capa != null)
+            {
+                var base64 = Convert.ToBase64String(Model.Capa);
+                var capasrc = string.Format("data:image/jpg;base64,{0}", base64);
+                <img src="@capasrc" width="100%" />  
+            }
+                
+        </div>
+    </div>
+
+</form>

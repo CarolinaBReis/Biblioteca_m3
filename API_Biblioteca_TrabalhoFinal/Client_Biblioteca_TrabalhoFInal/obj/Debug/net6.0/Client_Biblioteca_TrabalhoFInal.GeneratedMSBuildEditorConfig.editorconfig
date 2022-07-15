@@ -1,0 +1,92 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Client_Biblioteca_TrabalhoFinal
+build_property.RootNamespace = Client_Biblioteca_TrabalhoFinal
+build_property.ProjectDir = D:\Upskill\Módulo 3\PROJECTO\Trabalho Final\API_Biblioteca_TrabalhoFinal\Client_Biblioteca_TrabalhoFInal\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\Upskill\Módulo 3\PROJECTO\Trabalho Final\API_Biblioteca_TrabalhoFinal\Client_Biblioteca_TrabalhoFInal
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Leitores/CreateLeitor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVpdG9yZXNcQ3JlYXRlTGVpdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Leitores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVpdG9yZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Leitores/UpdateLeitor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVpdG9yZXNcVXBkYXRlTGVpdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Nucleos/CreateNucleo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVjbGVvc1xDcmVhdGVOdWNsZW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Nucleos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVjbGVvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Nucleos/UpdateNucleo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVjbGVvc1xVcGRhdGVOdWNsZW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Obras/CreateObra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JyYXNcQ3JlYXRlT2JyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Obras/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JyYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Obras/UpdateExemplarObra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JyYXNcVXBkYXRlRXhlbXBsYXJPYnJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Obras/UpdateObra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JyYXNcVXBkYXRlT2JyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Requisicoes/CreateRequisicao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWlzaWNvZXNcQ3JlYXRlUmVxdWlzaWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Requisicoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWlzaWNvZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Upskill/Módulo 3/PROJECTO/Trabalho Final/API_Biblioteca_TrabalhoFinal/Client_Biblioteca_TrabalhoFInal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gi14hecoih

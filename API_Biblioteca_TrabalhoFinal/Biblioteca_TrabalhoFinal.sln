@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API_Biblioteca_TrabalhoFinal", "API_Biblioteca_TrabalhoFinal\API_Biblioteca_TrabalhoFinal.csproj", "{C91CCBD9-E024-43D4-985D-6F26D6C45D68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client_Biblioteca_TrabalhoFinal", "Client_Biblioteca_TrabalhoFInal\Client_Biblioteca_TrabalhoFinal.csproj", "{FCCCB3B7-B825-42F3-991C-A6A79259DC79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C91CCBD9-E024-43D4-985D-6F26D6C45D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91CCBD9-E024-43D4-985D-6F26D6C45D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91CCBD9-E024-43D4-985D-6F26D6C45D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91CCBD9-E024-43D4-985D-6F26D6C45D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCCCB3B7-B825-42F3-991C-A6A79259DC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCCB3B7-B825-42F3-991C-A6A79259DC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCCB3B7-B825-42F3-991C-A6A79259DC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCCB3B7-B825-42F3-991C-A6A79259DC79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC2779B1-BB73-4BE7-ABED-75DDA4444083}
+	EndGlobalSection
+EndGlobal

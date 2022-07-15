@@ -1,0 +1,72 @@
+﻿@model Client_Biblioteca_TrabalhoFinal.Models.Leitores
+
+<form method="post" asp-action="CreateLeitor" enctype="multipart/form-data">
+    <div class="row px-2 mx-2 backgroundWhite border">
+
+        <input type="hidden" asp-for="DataRegisto" value="@DateTime.Now" />
+        <input type="hidden" asp-for="EstadoRegisto" value="Ativo" />
+        <input type="hidden" asp-for="DataEstado" value="@DateTime.Now" />
+        <input type="hidden" asp-for="Admin" value="False" />
+
+        <div class="col-12 p-3">
+            <h2 class="text-primary">Adicionar Leitor</h2>
+        </div>
+        <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="NIF"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="NIF" />
+                    <span asp-validation-for="NIF" class="text-danger"></span>
+                </div>
+                <div class="col-4">
+                    <label asp-for="Nome"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Nome" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="col-4">
+                    <label asp-for="Apelido"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Apelido" />
+                    <span asp-validation-for="Apelido" class="text-danger"></span>
+                </div>
+                <div class="col-4">
+                    <label asp-for="Telefone"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Telefone" />
+                    <span asp-validation-for="Telefone" class="text-danger"></span>
+                </div>
+                <div class="col-4">
+                    <label asp-for="Email"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>                
+                <div class="col-4">
+                    <label asp-for="Password"></label>
+                </div>
+                <div class="col-8">
+                    <input type="password" asp-for="Password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>                 
+     
+                
+            <div class="form-group row">
+                <div class="col-4 offset-4">                                            
+                        <button type="submit" class="btn btn-success form-control">
+                            Submeter
+                    </button>   
+                </div>
+                <div class="col-4">
+                    <a asp-action="Index" class="btn btn-primary form-control">Voltar</a>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+</form>

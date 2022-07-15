@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Requisicoes";
+}
+@Html.AntiForgeryToken()
+
+<div class="text-center">
+    <h3 class="display-5">Registos de Requisições</h3>
+    <p></p>
+    
+    <div class="p-4" style="border-radius:20px;">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-primary">Requisições</h2>
+        </div>
+        <div class="col-6 text-right">
+            <a asp-action="CreateRequisicao" class="btn btn-primary text-white"><i class="fas fa-plus"></i> &nbsp; Fazer Requisição</a>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="p-3 rounded">
+        <table id="tblData" class="table table-striped table-bordered" style="width:100%">
+            <thead>
+                <tr class="table-light">
+                    <th>ISBN</th>
+                    <th>ID Núcleo</th>
+                    <th>NIF</th>
+                    <th>Data Requisição</th>
+                    <th>Data Devolução</th>                
+                    <th></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+    
+</div>
+
+@section Scripts{
+    <script src="~/js/requisicoes.js"></script>
+}
